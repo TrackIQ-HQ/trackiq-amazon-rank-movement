@@ -1,0 +1,21 @@
+{
+  "name": "trackiq-amazon-rank-movement",
+  "version": "1.0.0",
+  "description": "TrackIQ: Amazon Organic Rank Movement Tracker \u2014 an Agent Skill for Amazon sellers, built on TrackIQ MCP data.",
+  "author": {
+    "name": "TrackIQ",
+    "url": "https://trackiq.com"
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-rank-movement",
+  "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-rank-movement",
+  "license": "MIT",
+  "keywords": [
+    "amazon",
+    "amazon-seller",
+    "claude-skill",
+    "agent-skills",
+    "mcp",
+    "trackiq",
+    "search"
+  ]
+}

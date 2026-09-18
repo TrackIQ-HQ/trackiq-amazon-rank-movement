@@ -1,0 +1,38 @@
+{
+  "name": "trackiq-amazon-rank-movement",
+  "title": "TrackIQ: Amazon Organic Rank Movement Tracker",
+  "category": "search",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Tracks weekly organic rank movement across a brand's priority keyword set by sampling live search results, compares it to the previous run, and weights every gain and loss by what that keyword is worth in revenue so the drops that cost real money surface first and the rest stay quiet. Use when the user asks about rank movement, organic rank changes, what moved this week, keyword rank tracking, did",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_keyword_rank",
+      "get_search_query_performance",
+      "list_marketplaces"
+    ],
+    "filesystem": false,
+    "network": true,
+    "third_party_apis": [
+      "oxylabs"
+    ],
+    "third_party_note": "Requires an Oxylabs scraper connection; the public page is the only source for this data."
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-rank-movement",
+  "license": "MIT"
+}
